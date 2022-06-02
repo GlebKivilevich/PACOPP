@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/main.css">
+    <link rel="shortcut icon" href="img/header/logo.jpeg">
+    <title>ЦОПП СО | Личный кабинет</title>
+</head>
+<body>
+    <div class="conteiner">
+        <header>
+            <div class="header__block">
+                <div class="left__block__header">
+                    <div class="logo__header">
+                        <img src="img/header/logo.jpeg" alt="Logo">
+                    </div>
+                    <div class="text__header">
+                        <h2>SkillsGuide</h2>
+                    </div>
+
+                </div>
+                <div class="right__block__header">
+                    <div class="burger__menu hide">                        	
+                        &#9776;
+                    </div>
+                </div>               
+            </div>
+
+            <!-- Modal -->
+            <div class="modal hide">
+                <div class="modal__dialog">
+                    <div class="modal__content">
+                        <div data-close class="modal__close">&times;</div>
+                        <div class="modal__text__block fz-16">
+                            <div class="hight__block__main__burger">
+                                <div class="block__photo__acc">
+                                    <img class="img__photo__acc" src="img/main/profile.png" alt="">
+                                </div>
+                                <div class="text__block__acc__burger">
+                                    <p class="name__acc__burger">
+                                        Максим Юмаков
+                                    </p>
+                                    <p class="school__number__burger">
+                                        Школа №5, 11Л
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="lower__block__main__burger">
+                                <div class="navigation__left__block__burger">
+                                    <a href="#local__acc" class="nav__left__block">Личный кабинет</a>
+                                    <a href="#meetings" class="nav__left__block">Ближайшие встречи</a>
+                                    <a href="#calendar" class="nav__left__block">Расписание</a>
+                                    <a href="#assessment" class="nav__left__block">Оценивание</a>
+                                    <a href="#recomendation" class="nav__left__block">Рекомендации</a>
+                                    <a href="#history" class="nav__left__block">История</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>            
+                </div>                
+            </div>
+            <!-- Modal -->
+        </header>
+
+        <main>
+            <div class="left__block__main">
+                <div class="info__in__left__block">
+                    <div class="hight__block__main">
+                        <div class="block__photo__acc">
+                            <img class="img__photo__acc" src="img/main/profile.png" alt="">
+                        </div>
+                        <div class="text__block__acc">
+                            <p class="name__acc">
+                                Максим Юмаков
+                            </p>
+                            <p class="school__number">
+                                Школа №5, 11Л
+                            </p>
+                        </div>
+                    </div>
+                    <div class="lower__block__main">
+                        <div class="navigation__left__block fz-22">
+                            <a href="#local__acc" class="nav__left__block">Личный кабинет</a>
+                            <a href="#meetings" class="nav__left__block">Ближайшие встречи</a>
+                            <a href="#calendar" class="nav__left__block">Расписание</a>
+                            <a href="#assessment" class="nav__left__block">Оценивание</a>
+                            <a href="#recomendation" class="nav__left__block">Рекомендации</a>
+                            <a href="#history" class="nav__left__block">История</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>   
+            <div class="right__block__main">
+                <div class="container__right__block" id="local__acc">
+                    <div class="info__about__user">
+                        <h2 class="personal__account fz-38">Личный кабинет</h2>
+                        <div class="block__info__user flex-jc-sb fz-26">
+                            <div class="left__block__info__user">
+                                <div class="FIO__user">ФИО:</div>
+                                <div class="email__user">Email:</div>
+                                <div class="phone__user">Телефон:</div>
+                                <div class="data__age__user">Дата рождения:</div>
+                                <div class="city__user">Город:</div>
+                                <div class="school__user">Школа:</div>
+                                <div class="school__class__user">Класс:</div> 
+                            </div>
+                            <div class="right__block__info__user">
+                                <div class="FIO__user__right">Юмаков Максим Владиславович</div>
+                                <div class="email__user__right">maxim.yumakov@gmail.com</div>
+                                <div class="phone__user__right">8(917) 118-96-56</div>
+                                <div class="data__age__user__right">24 декабря 2001 г.</div>
+                                <div class="city__user__right">Тольятти</div>
+                                <div class="school__user__right">МБУ Школа №5</div>
+                                <div class="school__class__user__right">11Л</div> 
+                            </div>
+                        </div>
+                        <button class="btn__edit__info fz-24">Редактировать</button>
+
+                    </div>
+
+                    <div id="meetings" class="info__upcoming__meetings">
+                        <div class="upper__block__upcoming__meetings flex-jc-sb" >
+                            <div class="left__block__upper">
+                                <div class="headings__info">
+                                    <img src="img/main/newMeeting.svg" alt="">
+                                    <h2 class="headings__meetings__mark fz-28">Введение в мир маркетинга</h2>
+                                </div>
+                                <p class="info__about__meeting fz-24">
+                                    Основные понятия в сфере маркетинга, <br>
+                                    аналитическое оснащение проекта
+                                </p>
+                                <div class="upper__block__info__meettings fz-20">
+                                    <div class="info__meetings">
+                                        <img class="img__date___left__block__upper" src="img/main/date.svg" alt="date">
+                                        <p class="date__info__meetings">19:00 11.04.2022</p>
+                                    </div>
+                                    <div class="number__info">
+                                        <img class="img__phone___left__block__upper" src="img/main/phone.svg" alt="phone">
+                                        <a href="tel:8(917)118-96-56">8(917)118-96-56</a>
+                                    </div>                                    
+                                </div>
+
+                                <div class="under__block__info__meetings fz-20">
+                                    <div class="speaker__info">
+                                        <img src="img/main/speacer.svg" alt="icon man">
+                                        <p class="FIO__speaker">Павленко М.В.</p>
+                                    </div>
+                                    <div class="link__connection">
+                                        <img class="img__link___left__block__upper" src="img/main/link.svg" alt="link">
+                                        <a class="link__left__block__upper" href="#">Подключиться</a>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="right__block__upper">
+                                <div class="headings__info__right__block">
+                                    <img src="img/main/newMeeting.svg" alt="">
+                                    <h2 class="headings__meetings__production fz-28">Введение в мир производства</h2>
+                                </div>
+                                <p class="info__about__meeting__production fz-24">
+                                    Основные понятия в сфере маркетинга, <br>
+                                    аналитическое оснащение проекта
+                                </p>
+                                <div class="upper__block__info__production fz-20">
+                                    <div class="info__meetings__production">
+                                        <img class="img__date___right__block__upper" src="img/main/date.svg" alt="date">
+                                        <p class="date__info__meetings__production">19:00 18.04.2022</p>
+                                    </div>
+                                    <div class="number__info__production">
+                                        <img class="img__phone___right__block__upper" src="img/main/phone.svg" alt="phone">
+                                        <a href="tel:8(917)118-96-56">8(917)118-96-56</a>
+                                    </div>                                    
+                                </div>
+
+                                <div class="under__block__info__meetings__production fz-20">
+                                    <div class="speaker__info__production">
+                                        <img src="img/main/speacer.svg" alt="icon man">
+                                        <p class="FIO__speaker__production">Пролейко Н.С.</p>
+                                    </div>
+                                    <div class="link__connection__production">
+                                        <img class="img__link___right__block__upper" src="img/main/link.svg" alt="link">
+                                        <a class="link__right__block__upper" href="#">Подключиться</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--  -->
+
+                        <div class="lower__block__upcoming__meetings flex-jc-sb">
+                            <div class="left__block__under__economy">
+                                <div class="headings__info__economy">
+                                    <img src="img/main/newMeeting.svg" alt="">
+                                    <h2 class="headings__info__econ fz-28">Введение в мир экономики</h2>
+                                </div>
+                                <p class="info__about__economy fz-24">
+                                    Основные понятия в сфере экономики, <br>
+                                    финансовое-экономическое обеспечение
+                                </p>
+                                <div class="upper__block__info__economy fz-20">
+                                    <div class="date__info__economy">
+                                        <img class="img__date__economy" src="img/main/date.svg" alt="date">
+                                        <p class="date__info__econ">19:00 11.04.2022</p>
+                                    </div>
+                                    <div class="phone__info__economy">
+                                        <img class="img__phone__economy" src="img/main/phone.svg" alt="phone">
+                                        <a href="tel:8(917)118-96-56">8(917)118-96-56</a>
+                                    </div>                                    
+                                </div>
+
+                                <div class="lower__block__info__economy fz-20">
+                                    <div class="FIO__speaker__economy">
+                                        <img src="img/main/speacer.svg" alt="icon man">
+                                        <p class="speacer__info__economy">Павленко М.В.</p>
+                                    </div>
+                                    <div class="link__info__economy">
+                                        <img class="img__link__economy" src="img/main/link.svg" alt="link">
+                                        <a class="link__economy" href="#">Подключиться</a>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="right__block__under__logistics">
+                                <div class="headings__info__logistics">
+                                    <img src="img/main/newMeeting.svg" alt="">
+                                    <h2 class="headings__info__logist fz-28">Введение в мир логистика</h2>
+                                </div>
+                                <p class="info__about__logistics fz-24">
+                                    Основные понятия в сфере экономики, <br>
+                                    финансовое-экономическое обеспечение
+                                </p>
+                                <div class="upper__block__info__logistics fz-20">
+                                    <div class="date__info__logistics">
+                                        <img class="img__date__logistics" src="img/main/date.svg" alt="date">
+                                        <p class="date__info__logist">19:00 11.04.2022</p>
+                                    </div>
+                                    <div class="phone__info__logistics">
+                                        <img class="img__phone__logistics" src="img/main/phone.svg" alt="phone">
+                                        <a href="tel:8(917)118-96-56">8(917)118-96-56</a>
+                                    </div>                                    
+                                </div>
+
+                                <div class="lower__block__info__logistics fz-20">
+                                    <div class="FIO__speaker__logistics">
+                                        <img src="img/main/speacer.svg" alt="icon man">
+                                        <p class="speacer__info__logistics">Павленко М.В.</p>
+                                    </div>
+                                    <div class="link__info__logistics">
+                                        <img class="img__link__logistics" src="img/main/link.svg" alt="link">
+                                        <a class="link__logistics" href="#">Подключиться</a>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="calendar" id="calendar">
+                        <h2 class="headings__timing">Расписание</h2>
+                        <div class="block__calendar__info">
+                            <div class="nav__block">
+                                <div class="offer__slider__prev">
+                                    <img src="img/main/prev.svg" alt="" class="prev">
+                                </div>  
+                                <div class="block__name__month">
+                                    <p class="name__month">
+                                        Май
+                                    </p>
+                                </div>                              
+                                <div class="block__name__year">
+                                    <p class="name__year">
+                                        2022
+                                    </p>
+                                </div>
+
+                                <div class="offer__slider__next">
+                                    <img src="img/main/next.svg" alt="" class="next">
+                                </div>                                
+                            </div>
+
+                            <div class="calendar__block">
+                                <ul class="weekdays">
+                                    <li class="weekdays__li">Пн</li>
+                                    <li class="weekdays__li">Вт</li>
+                                    <li class="weekdays__li">Ср</li>
+                                    <li class="weekdays__li">Чт</li>
+                                    <li class="weekdays__li">Пт</li>
+                                    <li class="weekdays__li">Сб</li>
+                                    <li class="weekdays__li">Вс</li>
+                                </ul>
+
+                                <ul class="days">
+                                    <li>
+                                        1
+                                        <div class="info__about__day">
+
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="block__assessment" id="assessment">
+                        <h2 class="assesment__h2">Оценивание</h2>
+
+                        <div class="marketing__block__progress">
+                            <div class="headings__marketing">
+                                <div class="circle__one">1</div>
+                                <p class="marketing__heading fz-34">Маркетолог</p>
+                            </div>
+                            <p class="info__about__marketing">
+                                Основные понятия, технологии работы, практическое применение
+                            </p>
+                            <div class="block__bar__all">
+                                <div class="concepts__progress__bar">
+                                    <p class="concept__headings">Понятия — 100%</p>
+                                    <div class="block__bar">
+                                        <div class="progress_bar__first">
+                                            <span class="proggress__bar__span"></span>
+                                        </div>
+                                        <div class="img__gal">
+                                            <img src="img/main/plus.svg" alt="">
+                                        </div>
+                                    </div>                               
+                                </div>
+
+                                <div class="analytics__progress__bar">
+                                    <p class="analytics__headings">Аналитика — 80%</p>
+                                    <div class="block__bar__analytics">
+                                        <div class="progress_bar__second">
+                                            <span class="proggress__bar__span__analytics"></span>
+                                        </div>
+                                        <div class="img__gal__analytics">
+                                            <img src="img/main/plus.svg" alt="">
+                                        </div>
+                                    </div>                               
+                                </div>
+
+                                <div class="technology__progress__bar">
+                                    <p class="technology__headings">Технологии — 45%</p>
+                                    <div class="block__bar__technology">
+                                        <div class="progress_bar__three">
+                                            <span class="proggress__bar__span__technology"></span>
+                                        </div>
+                                        <div class="img__gal__technology">
+                                            <img src="img/main/error.svg" alt="">
+                                        </div>
+                                    </div> 
+                                </div>
+
+                                <div class="final__testing__progress__bar">
+                                    <p class="final__testing__headings">Итоговое тестирование — 60%</p>
+                                    <div class="block__bar__final__testing">
+                                        <div class="progress_bar__three">
+                                            <span class="proggress__bar__span__final__testing"></span>
+                                        </div>
+                                        <div class="img__gal__final__testing">
+                                            <img src="img/main/plus.svg" alt="">
+                                        </div>
+                                    </div> 
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="development__block">
+                            <div class="headings__development">
+                                <div class="circle__two">2</div>
+                                <p class="development__heading fz-34">Разработчик</p>
+                            </div>
+                            <p class="info__about__development">
+                                Основные понятия, технологии работы, практическое применение
+                            </p>
+                            <div class="block__bar__all__two">
+                                <div class="concepts__progress__bar__two">
+                                    <p class="concept__headings__two">Понятия — 100%</p>
+                                    <div class="block__bar__two">
+                                        <div class="progress_bar__first__two">
+                                            <span class="proggress__bar__span__two"></span>
+                                        </div>
+                                        <div class="img__gal__two">
+                                            <img src="img/main/plus.svg" alt="">
+                                        </div>
+                                    </div>                               
+                                </div>
+
+                                <div class="analytics__progress__bar__two">
+                                    <p class="analytics__headings__two">Аналитика — 80%</p>
+                                    <div class="block__bar__analytics__two">
+                                        <div class="progress_bar__second__two">
+                                            <span class="proggress__bar__span__analytics__two"></span>
+                                        </div>
+                                        <div class="img__gal__analytics__two">
+                                            <img src="img/main/plus.svg" alt="">
+                                        </div>
+                                    </div>                               
+                                </div>
+
+                                <div class="technology__progress__bar__two">
+                                    <p class="technology__headings__two">Технологии — 45%</p>
+                                    <div class="block__bar__technology__two">
+                                        <div class="progress_bar__three__two">
+                                            <span class="proggress__bar__span__technology__two"></span>
+                                        </div>
+                                        <div class="img__gal__technology__two">
+                                            <img src="img/main/error.svg" alt="">
+                                        </div>
+                                    </div> 
+                                </div>
+
+                                <div class="final__testing__progress__bar__two">
+                                    <p class="final__testing__headings__two">Итоговое тестирование — 60%</p>
+                                    <div class="block__bar__final__testing__two">
+                                        <div class="progress_bar__three__two">
+                                            <span class="proggress__bar__span__final__testing__two"></span>
+                                        </div>
+                                        <div class="img__gal__final__testing__two">
+                                            <img src="img/main/plus.svg" alt="">
+                                        </div>
+                                    </div> 
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="recommendations__for__courses__trials" id="recomendation">
+                            <h2 class="info__recommendations fz-34">Рекомандации по курсам/пробам</h2>
+
+                            <div class="block__table">
+                                <table class="table__info">
+                                    <tr class="tr__block__first fz-24">
+                                    <th class="table__head">Название</th>
+                                    <th class="table__head">Преподаватель</th>
+                                    <th class="table__head">Длительность</th>
+                                    <th class="table__head">Дата начала</th>
+                                    </tr>
+                                    <tr class="tr__block__second fz-24">
+                                      <td class="table__main">Повар</td>
+                                      <td class="table__main">Дюмин М.Б.</td>
+                                      <td class="table__main">10 ак. ч.</td>
+                                      <td class="table__main">11.04.2022</td>
+                                    </tr>
+                                    <tr class="tr__block__three">
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr class="tr__block__four">
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr class="tr__block__five">
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                      </tr>
+                                </table>
+
+                            </div>                            
+                        </div>
+
+                        <div class="history__of__completed__courses__trials" id="history">
+                            <h2 class="headings__history fz-34">История по пройденным курсам/пробам</h2>
+                            <div class="all__block__history flex-jc-sb">
+                                 <div class="left__block__history">
+                                    <div class="img__text__block__left__block__first">
+                                        <img src="img/main/plus.svg" alt="">                                        
+                                        <p class="text__history__first__left__block">
+                                            Аналитик
+                                        </p>
+                                    </div>
+
+                                    <div class="img__text__block__left__block__second">
+                                        <img src="img/main/plus.svg" alt="">                                        
+                                        <p class="text__history__second__left__block">
+                                            Разработчик
+                                        </p>
+                                    </div>
+
+                                    <div class="img__text__block__left__block__three">
+                                        <img src="img/main/error.svg" alt="">                                        
+                                        <p class="text__history__three__left__block">
+                                            Преподаватель
+                                        </p>
+                                    </div>
+
+                                    <div class="img__text__block__left__block__four">
+                                        <img src="img/main/load.svg" alt="">                                        
+                                        <p class="text__history__four__left__block">
+                                            Повар
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <!--  -->
+
+                                <div class="center__block__history">
+                                    <div class="img__text__block__center__block__first">
+                                        <img src="img/main/plus.svg" alt="">                                        
+                                        <p class="text__history__first__center__block">
+                                            Аналитик
+                                        </p>
+                                    </div>
+
+                                    <div class="img__text__block__center__block__second">
+                                        <img src="img/main/plus.svg" alt="">                                        
+                                        <p class="text__history__second__center__block">
+                                            Разработчик
+                                        </p>
+                                    </div>
+
+                                    <div class="img__text__block__center__block__three">
+                                        <img src="img/main/error.svg" alt="">                                        
+                                        <p class="text__history__three__center__block">
+                                            Преподаватель
+                                        </p>
+                                    </div>
+
+                                    <div class="img__text__block__center__block__four">
+                                        <img src="img/main/load.svg" alt="">                                        
+                                        <p class="text__history__four__center__block">
+                                            Повар
+                                        </p>
+                                    </div>
+
+                                </div>
+
+                                <!--  -->
+
+                                <div class="right__block__history">
+                                    <div class="img__text__block__right__block__first">
+                                        <img src="img/main/plus.svg" alt="">                                        
+                                        <p class="text__history__first__right__block">
+                                            Аналитик
+                                        </p>
+                                    </div>
+
+                                    <div class="img__text__block__right__block__second">
+                                        <img src="img/main/plus.svg" alt="">                                        
+                                        <p class="text__history__second__right__block">
+                                            Разработчик
+                                        </p>
+                                    </div>
+
+                                    <div class="img__text__block__right__block__three">
+                                        <img src="img/main/error.svg" alt="">                                        
+                                        <p class="text__history__three__right__block">
+                                            Преподаватель
+                                        </p>
+                                    </div>
+
+                                    <div class="img__text__block__right__block__four">
+                                        <img src="img/main/load.svg" alt="">                                        
+                                        <p class="text__history__four__right__block">
+                                            Повар
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                </div>
+
+            </div>         
+
+
+        </main>
+
+        <footer>
+            <div class="container__footer flex-jc-sb">
+                <div class="logo__block">
+                    <img src="img/footer/footerLogo.jpeg" alt="Logo">
+                </div>
+                <div class="contact__block">
+                    <div class="block__address">
+                        <img src="img/footer/address.svg" alt="">
+                        <p>
+                            445007, Тольятти, улица Победы, дом 7 <br>
+                            По рабочим дням с 10:00 до 18:00
+                        </p>
+                    </div>
+                    <div class="block__phone">
+                        <img src="img/footer/phone.svg" alt="">
+                        <a href="tel: 88003504207">8 (800) 350-42-07</a>
+                    </div>
+                    <div class="block__email">
+                        <img src="img/footer/mail.svg" alt="">
+                        <a href="mailto:copp163.info@gmail.com">copp163.info@gmail.com</a>
+                    </div>
+                </div>
+                <div class="social__networks__block">
+                    <div class="block__inst">
+                        <img src="img/footer/inst.svg" alt="">
+                        <a href="#">Наш Instagram</a>
+                    </div>
+                    <div class="block__facebook">
+                        <img src="img/footer/fb.svg" alt="">
+                        <a href="#">Наш Facebook</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

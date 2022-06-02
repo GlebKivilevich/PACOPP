@@ -1,0 +1,2021 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "Proximanova Bold";
+  src: url("../ProximaNova/proximanova_bold.otf");
+}
+@font-face {
+  font-family: "Proximanova Regular";
+  src: url("../ProximaNova/proximanova_regular.ttf");
+}
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+body {
+  font-family: "Proximanova Regular", sans-serif;
+  font-family: "Proximanova Bold", sans-serif;
+  color: #FFF;
+  font-size: 24px;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+  font-family: "Proximanova Regular", sans-serif;
+}
+
+ul, ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: "Proximanova Regular", sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  font-family: "Proximanova Regular", sans-serif;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+figure {
+  margin: 0;
+}
+
+.conteiner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100vh;
+}
+.conteiner header {
+  background: #394959;
+}
+.conteiner header .header__block {
+  position: fixed;
+  z-index: 100;
+  background: #394959;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 85px;
+  width: 100%;
+  margin: auto;
+  padding-left: 35px;
+  padding-right: 35px;
+}
+.conteiner header .header__block .text__header h2 {
+  font-family: "Proximanova Regular", sans-serif;
+  font-weight: 100;
+  font-size: 24px;
+}
+.conteiner header .header__block .left__block__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 200px;
+  width: 180px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.conteiner header .header__block .right__block__header {
+  display: block;
+  max-width: 1400px;
+}
+.conteiner header .header__block .right__block__header .burger__menu {
+  -webkit-transition: 0.44s ease-in;
+  transition: 0.44s ease-in;
+}
+.conteiner header .header__block .right__block__header .burger__menu:hover {
+  color: #1da5f0;
+}
+.conteiner header .header__block .right__block__header .block__nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 1000px;
+}
+.conteiner header .header__block .right__block__header .block__nav .nav {
+  font-size: 22px;
+  margin-right: 70px;
+}
+.conteiner header .header__block .right__block__header .block__nav .nav__exit {
+  border-bottom: 1px solid #fff;
+  font-size: 22px;
+}
+.conteiner main {
+  background: #eeeeee;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.conteiner main .left__block__main {
+  max-width: 20%;
+  width: 20%;
+  background: #394959;
+  height: 100%;
+  top: 15%;
+}
+.conteiner main .left__block__main .info__in__left__block {
+  position: fixed;
+  z-index: 101;
+  max-width: 325px;
+  top: 12%;
+}
+.conteiner main .left__block__main .hight__block__main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 320px;
+}
+.conteiner main .left__block__main .hight__block__main .text__block__acc {
+  text-align: center;
+  margin-top: 15px;
+}
+.conteiner main .left__block__main .hight__block__main .text__block__acc .name__acc {
+  font-size: 20px;
+}
+.conteiner main .left__block__main .hight__block__main .text__block__acc .school__number {
+  font-size: 15px;
+}
+.conteiner main .left__block__main .hight__block__main .img__photo__acc {
+  border: 3px solid #6b68ff;
+  border-radius: 50%;
+}
+.conteiner main .left__block__main .lower__block__main {
+  margin-left: 25px;
+  margin-top: 25px;
+}
+.conteiner main .left__block__main .lower__block__main .navigation__left__block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 225px;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  font-weight: 100;
+}
+.conteiner main .right__block__main {
+  width: 80%;
+  margin-top: 85px;
+}
+.conteiner main .right__block__main .container__right__block {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.conteiner main .right__block__main .container__right__block .info__about__user {
+  padding-top: 25px;
+}
+.conteiner main .right__block__main .container__right__block .info__about__user .personal__account {
+  color: #394959;
+}
+.conteiner main .right__block__main .container__right__block .block__info__user {
+  color: #222222;
+  max-width: 700px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 25px;
+}
+.conteiner main .right__block__main .container__right__block .block__info__user .left__block__info__user {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 300px;
+  font-weight: 700;
+}
+.conteiner main .right__block__main .container__right__block .block__info__user .right__block__info__user {
+  font-family: "Proximanova Regular", sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 300px;
+}
+.conteiner main .right__block__main .container__right__block .btn__edit__info {
+  margin-top: 30px;
+  width: 265px;
+  height: 65px;
+  background: #394959;
+  color: #FFFFFF;
+  border-radius: 7px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  -webkit-transition: 0.44s ease-in;
+  transition: 0.44s ease-in;
+}
+.conteiner main .right__block__main .container__right__block .btn__edit__info:hover {
+  color: #ffffff;
+  background: #6b68ff;
+}
+.conteiner main .right__block__main .info__upcoming__meetings {
+  font-family: "Proximanova Regular", sans-serif;
+  color: #222;
+  padding-top: 75px;
+}
+.conteiner main .right__block__main .upper__block__upcoming__meetings {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-bottom: 40px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.conteiner main .right__block__main .upper__block__upcoming__meetings .left__block__upper {
+  max-width: 500px;
+  margin-bottom: 35px;
+}
+.conteiner main .right__block__main .upper__block__upcoming__meetings .left__block__upper .headings__info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 425px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 15px;
+}
+.conteiner main .right__block__main .upper__block__upcoming__meetings .left__block__upper .headings__info .headings__meetings__mark {
+  color: #222222;
+}
+.conteiner main .right__block__main .upper__block__upcoming__meetings .left__block__upper .info__about__meeting {
+  color: #565656;
+  margin-bottom: 25px;
+}
+.conteiner main .right__block__main .upper__block__upcoming__meetings .left__block__upper .upper__block__info__meettings {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 490px;
+  color: #394959;
+  margin-bottom: 25px;
+}
+.conteiner main .right__block__main .upper__block__upcoming__meetings .left__block__upper .upper__block__info__meettings .info__meetings,
+.conteiner main .right__block__main .upper__block__upcoming__meetings .left__block__upper .upper__block__info__meettings .number__info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 210px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.conteiner main .right__block__main .upper__block__upcoming__meetings .left__block__upper .upper__block__info__meettings .info__meetings .img__phone___left__block__upper,
+.conteiner main .right__block__main .upper__block__upcoming__meetings .left__block__upper .upper__block__info__meettings .number__info .img__phone___left__block__upper {
+  width: 36px;
+  height: 36px;
+}
+.conteiner main .right__block__main .upper__block__upcoming__meetings .left__block__upper .upper__block__info__meettings .info__meetings .img__date___left__block__upper,
+.conteiner main .right__block__main .upper__block__upcoming__meetings .left__block__upper .upper__block__info__meettings .number__info .img__date___left__block__upper {
+  width: 36px;
+  height: 36px;
+}
+.conteiner main .right__block__main .upper__block__upcoming__meetings .left__block__upper .under__block__info__meetings {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 490px;
+  color: #394959;
+}
+.conteiner main .right__block__main .upper__block__upcoming__meetings .left__block__upper .under__block__info__meetings .speaker__info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 200px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.conteiner main .right__block__main .upper__block__upcoming__meetings .left__block__upper .under__block__info__meetings .link__connection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 210px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.conteiner main .right__block__main .upper__block__upcoming__meetings .left__block__upper .under__block__info__meetings .link__connection .link__left__block__upper {
+  color: #1D9BF0;
+  border-bottom: 1px solid;
+}
+.conteiner main .right__block__main .upper__block__upcoming__meetings .left__block__upper .under__block__info__meetings .link__connection .img__link___left__block__upper {
+  width: 36px;
+  height: 36px;
+}
+.conteiner main .right__block__main .upper__block__upcoming__meetings .right__block__upper {
+  max-width: 500px;
+}
+.conteiner main .right__block__main .upper__block__upcoming__meetings .right__block__upper .headings__info__right__block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 470px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 15px;
+}
+.conteiner main .right__block__main .upper__block__upcoming__meetings .right__block__upper .headings__info__right__block .headings__meetings__production {
+  color: #222222;
+}
+.conteiner main .right__block__main .upper__block__upcoming__meetings .right__block__upper .info__about__meeting__production {
+  margin-bottom: 25px;
+  color: #565656;
+}
+.conteiner main .right__block__main .upper__block__upcoming__meetings .right__block__upper .upper__block__info__production {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 490px;
+  color: #394959;
+}
+.conteiner main .right__block__main .upper__block__upcoming__meetings .right__block__upper .upper__block__info__production .info__meetings__production {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 210px;
+  align-items: center;
+}
+.conteiner main .right__block__main .upper__block__upcoming__meetings .right__block__upper .upper__block__info__production .info__meetings__production .img__date___right__block__upper {
+  width: 36px;
+  height: 36px;
+}
+.conteiner main .right__block__main .upper__block__upcoming__meetings .right__block__upper .upper__block__info__production .number__info__production {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 210px;
+  align-items: center;
+}
+.conteiner main .right__block__main .upper__block__upcoming__meetings .right__block__upper .upper__block__info__production .number__info__production .img__phone___right__block__upper {
+  width: 36px;
+  height: 36px;
+}
+.conteiner main .right__block__main .upper__block__upcoming__meetings .right__block__upper .under__block__info__meetings__production {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 490px;
+  margin-top: 25px;
+  color: #394959;
+}
+.conteiner main .right__block__main .upper__block__upcoming__meetings .right__block__upper .under__block__info__meetings__production .speaker__info__production {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 200px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.conteiner main .right__block__main .upper__block__upcoming__meetings .right__block__upper .under__block__info__meetings__production .link__connection__production {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 210px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.conteiner main .right__block__main .upper__block__upcoming__meetings .right__block__upper .under__block__info__meetings__production .link__right__block__upper {
+  color: #1D9BF0;
+  border-bottom: 1px solid;
+}
+.conteiner main .right__block__main .upper__block__upcoming__meetings .right__block__upper .under__block__info__meetings__production .img__link___right__block__upper {
+  width: 36px;
+  height: 36px;
+}
+.conteiner main .right__block__main .lower__block__upcoming__meetings {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.conteiner main .right__block__main .lower__block__upcoming__meetings .left__block__under__economy {
+  max-width: 500px;
+  margin-bottom: 25px;
+}
+.conteiner main .right__block__main .lower__block__upcoming__meetings .left__block__under__economy .headings__info__economy {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 425px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 15px;
+}
+.conteiner main .right__block__main .lower__block__upcoming__meetings .left__block__under__economy .info__about__economy {
+  margin-bottom: 25px;
+  color: #565656;
+}
+.conteiner main .right__block__main .lower__block__upcoming__meetings .left__block__under__economy .upper__block__info__economy {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 470px;
+  color: #394959;
+  margin-bottom: 25px;
+}
+.conteiner main .right__block__main .lower__block__upcoming__meetings .left__block__under__economy .upper__block__info__economy .date__info__economy {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 215px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.conteiner main .right__block__main .lower__block__upcoming__meetings .left__block__under__economy .upper__block__info__economy .date__info__economy .img__date__economy {
+  width: 36px;
+  height: 36px;
+}
+.conteiner main .right__block__main .lower__block__upcoming__meetings .left__block__under__economy .upper__block__info__economy .phone__info__economy {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 210px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.conteiner main .right__block__main .lower__block__upcoming__meetings .left__block__under__economy .upper__block__info__economy .phone__info__economy .img__phone__economy {
+  width: 36px;
+  height: 36px;
+}
+.conteiner main .right__block__main .lower__block__upcoming__meetings .left__block__under__economy .lower__block__info__economy {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 470px;
+  color: #394959;
+  margin-bottom: 25px;
+}
+.conteiner main .right__block__main .lower__block__upcoming__meetings .left__block__under__economy .lower__block__info__economy .FIO__speaker__economy {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 200px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.conteiner main .right__block__main .lower__block__upcoming__meetings .left__block__under__economy .lower__block__info__economy .link__info__economy {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 212px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.conteiner main .right__block__main .lower__block__upcoming__meetings .left__block__under__economy .lower__block__info__economy .link__info__economy .img__link__economy {
+  width: 36px;
+  height: 36px;
+}
+.conteiner main .right__block__main .lower__block__upcoming__meetings .left__block__under__economy .lower__block__info__economy .link__info__economy .link__economy {
+  color: #1D9BF0;
+  border-bottom: 1px solid;
+}
+.conteiner main .right__block__main .lower__block__upcoming__meetings .right__block__under__logistics {
+  max-width: 500px;
+  margin-bottom: 35px;
+}
+.conteiner main .right__block__main .lower__block__upcoming__meetings .right__block__under__logistics .headings__info__logistics {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 425px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 15px;
+}
+.conteiner main .right__block__main .lower__block__upcoming__meetings .right__block__under__logistics .info__about__logistics {
+  color: #565656;
+  margin-bottom: 25px;
+}
+.conteiner main .right__block__main .lower__block__upcoming__meetings .right__block__under__logistics .upper__block__info__logistics {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 470px;
+  color: #394959;
+  margin-bottom: 25px;
+}
+.conteiner main .right__block__main .lower__block__upcoming__meetings .right__block__under__logistics .upper__block__info__logistics .date__info__logistics {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 215px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.conteiner main .right__block__main .lower__block__upcoming__meetings .right__block__under__logistics .upper__block__info__logistics .date__info__logistics .img__date__logistics {
+  width: 36px;
+  height: 36px;
+}
+.conteiner main .right__block__main .lower__block__upcoming__meetings .right__block__under__logistics .upper__block__info__logistics .phone__info__logistics {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 210px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.conteiner main .right__block__main .lower__block__upcoming__meetings .right__block__under__logistics .upper__block__info__logistics .phone__info__logistics .img__phone__logistics {
+  width: 36px;
+  height: 36px;
+}
+.conteiner main .right__block__main .lower__block__upcoming__meetings .right__block__under__logistics .lower__block__info__logistics {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 470px;
+  color: #394959;
+  margin-bottom: 25px;
+}
+.conteiner main .right__block__main .lower__block__upcoming__meetings .right__block__under__logistics .lower__block__info__logistics .FIO__speaker__logistics {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 200px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.conteiner main .right__block__main .lower__block__upcoming__meetings .right__block__under__logistics .lower__block__info__logistics .link__info__logistics {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 210px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.conteiner main .right__block__main .lower__block__upcoming__meetings .right__block__under__logistics .lower__block__info__logistics .link__info__logistics .img__phone__logistics {
+  width: 36px;
+  height: 36px;
+}
+.conteiner main .right__block__main .lower__block__upcoming__meetings .right__block__under__logistics .lower__block__info__logistics .link__info__logistics .img__link__logistics {
+  width: 36px;
+  height: 36px;
+}
+.conteiner main .right__block__main .lower__block__upcoming__meetings .right__block__under__logistics .lower__block__info__logistics .link__info__logistics .link__logistics {
+  color: #1D9BF0;
+  border-bottom: 1px solid;
+}
+.conteiner main .right__block__main .calendar {
+  max-width: 1200px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.conteiner main .right__block__main .calendar .headings__timing {
+  font-size: 34px;
+  color: #394959;
+  text-align: center;
+  padding-bottom: 15px;
+}
+.conteiner main .right__block__main .calendar .block__calendar__info {
+  margin-top: 15px;
+}
+.conteiner main .right__block__main .calendar .block__calendar__info .nav__block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  max-width: 305px;
+  margin: auto;
+}
+.conteiner main .right__block__main .calendar .block__calendar__info .nav__block .prev,
+.conteiner main .right__block__main .calendar .block__calendar__info .nav__block .next {
+  cursor: pointer;
+}
+.conteiner main .right__block__main .calendar .block__calendar__info .nav__block .name__month,
+.conteiner main .right__block__main .calendar .block__calendar__info .nav__block .name__year {
+  font-size: 32px;
+  color: #222;
+  text-transform: uppercase;
+}
+.conteiner main .right__block__main .calendar .block__calendar__info .calendar__block {
+  margin-top: 25px;
+}
+.conteiner main .right__block__main .calendar .block__calendar__info .calendar__block .weekdays {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 85%;
+  margin-left: 25px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: #222;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+.conteiner main .right__block__main .calendar .block__calendar__info .calendar__block .weekdays .weekdays__li {
+  max-width: 105px;
+  text-align: center;
+  color: #696969;
+}
+.conteiner main .right__block__main .calendar .block__calendar__info .calendar__block .days {
+  width: 96%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  color: #222;
+  margin-top: 25px;
+  margin-left: 15px;
+}
+.conteiner main .right__block__main .calendar .block__calendar__info .calendar__block .days li {
+  height: 170px;
+  max-width: 12.5%;
+  margin-right: 5px;
+  min-width: 40px;
+  margin-bottom: 5px;
+  text-align: center;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 14.2857142857%;
+          flex: 1 0 14.2857142857%;
+}
+.conteiner main .right__block__main .calendar .block__calendar__info .calendar__block .days li .higth__block__day {
+  height: 55px;
+  text-align: end;
+  width: 80%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 36px;
+}
+.conteiner main .right__block__main .block__assessment {
+  padding-top: 70px;
+}
+.conteiner main .right__block__main .block__assessment .assesment__h2 {
+  color: #394959;
+  font-size: 38px;
+  text-align: center;
+  margin-bottom: 25px;
+}
+.conteiner main .right__block__main .block__assessment .marketing__block__progress {
+  color: #222;
+}
+.conteiner main .right__block__main .block__assessment .marketing__block__progress .headings__marketing {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 270px;
+}
+.conteiner main .right__block__main .block__assessment .marketing__block__progress .headings__marketing .circle__one {
+  background: #394959;
+  color: #FFF;
+  font-size: 26px;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.conteiner main .right__block__main .block__assessment .marketing__block__progress .headings__marketing .marketing__heading {
+  color: #222;
+}
+.conteiner main .right__block__main .block__assessment .marketing__block__progress .info__about__marketing {
+  max-width: 1045px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  font-size: 24px;
+  max-width: 1045px;
+  margin: auto;
+  font-size: 24px;
+}
+.conteiner main .right__block__main .block__assessment .marketing__block__progress .block__bar__all {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  font-size: 24px;
+  max-width: 1045px;
+  margin: auto;
+  margin-top: 35px;
+  font-size: 24px;
+}
+.conteiner main .right__block__main .block__assessment .marketing__block__progress .block__bar__all .concepts__progress__bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.conteiner main .right__block__main .block__assessment .marketing__block__progress .block__bar__all .concepts__progress__bar .concept__headings {
+  font-size: 24px;
+}
+.conteiner main .right__block__main .block__assessment .marketing__block__progress .block__bar__all .concepts__progress__bar .block__bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.conteiner main .right__block__main .block__assessment .marketing__block__progress .block__bar__all .concepts__progress__bar .block__bar .progress_bar__first {
+  width: 450px;
+  background: #C4C4C4;
+  height: 30px;
+  border-radius: 41px;
+}
+.conteiner main .right__block__main .block__assessment .marketing__block__progress .block__bar__all .concepts__progress__bar .block__bar .progress_bar__first .proggress__bar__span {
+  display: block;
+  width: 100%;
+  background: #394959;
+  height: 30px;
+  border-radius: 41px;
+}
+.conteiner main .right__block__main .block__assessment .marketing__block__progress .block__bar__all .concepts__progress__bar .block__bar .img__gal {
+  margin-left: 25px;
+}
+.conteiner main .right__block__main .block__assessment .marketing__block__progress .block__bar__all .analytics__progress__bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 15px;
+}
+.conteiner main .right__block__main .block__assessment .marketing__block__progress .block__bar__all .analytics__progress__bar .analytics__headings {
+  font-size: 24px;
+}
+.conteiner main .right__block__main .block__assessment .marketing__block__progress .block__bar__all .analytics__progress__bar .block__bar__analytics {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.conteiner main .right__block__main .block__assessment .marketing__block__progress .block__bar__all .analytics__progress__bar .block__bar__analytics .progress_bar__second {
+  width: 450px;
+  background: #C4C4C4;
+  height: 30px;
+  border-radius: 41px;
+}
+.conteiner main .right__block__main .block__assessment .marketing__block__progress .block__bar__all .analytics__progress__bar .block__bar__analytics .progress_bar__second .proggress__bar__span__analytics {
+  display: block;
+  width: 80%;
+  background: #394959;
+  height: 30px;
+  border-radius: 41px 0px 0px 41px;
+}
+.conteiner main .right__block__main .block__assessment .marketing__block__progress .block__bar__all .analytics__progress__bar .block__bar__analytics .img__gal__analytics {
+  margin-left: 25px;
+}
+.conteiner main .right__block__main .block__assessment .marketing__block__progress .block__bar__all .technology__progress__bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 15px;
+}
+.conteiner main .right__block__main .block__assessment .marketing__block__progress .block__bar__all .technology__progress__bar .technology__headings {
+  font-size: 24px;
+}
+.conteiner main .right__block__main .block__assessment .marketing__block__progress .block__bar__all .technology__progress__bar .block__bar__technology {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.conteiner main .right__block__main .block__assessment .marketing__block__progress .block__bar__all .technology__progress__bar .block__bar__technology .progress_bar__three {
+  width: 450px;
+  background: #C4C4C4;
+  height: 30px;
+  border-radius: 41px;
+}
+.conteiner main .right__block__main .block__assessment .marketing__block__progress .block__bar__all .technology__progress__bar .block__bar__technology .progress_bar__three .proggress__bar__span__technology {
+  display: block;
+  width: 45%;
+  background: #DC2014;
+  height: 30px;
+  border-radius: 41px 0px 0px 41px;
+}
+.conteiner main .right__block__main .block__assessment .marketing__block__progress .block__bar__all .technology__progress__bar .block__bar__technology .img__gal__technology {
+  margin-left: 25px;
+}
+.conteiner main .right__block__main .block__assessment .marketing__block__progress .block__bar__all .final__testing__progress__bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 15px;
+}
+.conteiner main .right__block__main .block__assessment .marketing__block__progress .block__bar__all .final__testing__progress__bar .final__testing__headings {
+  font-size: 24px;
+}
+.conteiner main .right__block__main .block__assessment .marketing__block__progress .block__bar__all .final__testing__progress__bar .block__bar__final__testing {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.conteiner main .right__block__main .block__assessment .marketing__block__progress .block__bar__all .final__testing__progress__bar .block__bar__final__testing .progress_bar__three {
+  width: 450px;
+  background: #C4C4C4;
+  height: 30px;
+  border-radius: 41px;
+}
+.conteiner main .right__block__main .block__assessment .marketing__block__progress .block__bar__all .final__testing__progress__bar .block__bar__final__testing .progress_bar__three .proggress__bar__span__final__testing {
+  display: block;
+  width: 60%;
+  background: #394959;
+  height: 30px;
+  border-radius: 41px 0px 0px 41px;
+}
+.conteiner main .right__block__main .block__assessment .marketing__block__progress .block__bar__all .final__testing__progress__bar .block__bar__final__testing .img__gal__final__testing {
+  margin-left: 25px;
+}
+.conteiner main .right__block__main .block__assessment .development__block {
+  color: #222;
+  margin-top: 25px;
+}
+.conteiner main .right__block__main .block__assessment .development__block .headings__development {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 282px;
+}
+.conteiner main .right__block__main .block__assessment .development__block .headings__development .circle__two {
+  background: #394959;
+  color: #FFF;
+  font-size: 26px;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.conteiner main .right__block__main .block__assessment .development__block .headings__development .development__heading {
+  color: #222;
+}
+.conteiner main .right__block__main .block__assessment .development__block .info__about__development {
+  max-width: 1045px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  font-size: 24px;
+  max-width: 1045px;
+  margin: auto;
+  font-size: 24px;
+}
+.conteiner main .right__block__main .block__assessment .development__block .block__bar__all__two {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  font-size: 24px;
+  max-width: 1045px;
+  margin: auto;
+  margin-top: 35px;
+  font-size: 24px;
+}
+.conteiner main .right__block__main .block__assessment .development__block .block__bar__all__two .concepts__progress__bar__two {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.conteiner main .right__block__main .block__assessment .development__block .block__bar__all__two .concepts__progress__bar__two .concept__headings__two {
+  font-size: 24px;
+}
+.conteiner main .right__block__main .block__assessment .development__block .block__bar__all__two .concepts__progress__bar__two .block__bar__two {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.conteiner main .right__block__main .block__assessment .development__block .block__bar__all__two .concepts__progress__bar__two .block__bar__two .progress_bar__first__two {
+  width: 450px;
+  background: #C4C4C4;
+  height: 30px;
+  border-radius: 41px;
+}
+.conteiner main .right__block__main .block__assessment .development__block .block__bar__all__two .concepts__progress__bar__two .block__bar__two .progress_bar__first__two .proggress__bar__span__two {
+  display: block;
+  width: 100%;
+  background: #394959;
+  height: 30px;
+  border-radius: 41px;
+}
+.conteiner main .right__block__main .block__assessment .development__block .block__bar__all__two .concepts__progress__bar__two .block__bar__two .img__gal__two {
+  margin-left: 25px;
+}
+.conteiner main .right__block__main .block__assessment .development__block .block__bar__all__two .analytics__progress__bar__two {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 15px;
+}
+.conteiner main .right__block__main .block__assessment .development__block .block__bar__all__two .analytics__progress__bar__two .analytics__headings__two {
+  font-size: 24px;
+}
+.conteiner main .right__block__main .block__assessment .development__block .block__bar__all__two .analytics__progress__bar__two .block__bar__analytics__two {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.conteiner main .right__block__main .block__assessment .development__block .block__bar__all__two .analytics__progress__bar__two .block__bar__analytics__two .progress_bar__second__two {
+  width: 450px;
+  background: #C4C4C4;
+  height: 30px;
+  border-radius: 41px;
+}
+.conteiner main .right__block__main .block__assessment .development__block .block__bar__all__two .analytics__progress__bar__two .block__bar__analytics__two .progress_bar__second__two .proggress__bar__span__analytics__two {
+  display: block;
+  width: 80%;
+  background: #394959;
+  height: 30px;
+  border-radius: 41px 0px 0px 41px;
+}
+.conteiner main .right__block__main .block__assessment .development__block .block__bar__all__two .analytics__progress__bar__two .block__bar__analytics__two .img__gal__analytics__two {
+  margin-left: 25px;
+}
+.conteiner main .right__block__main .block__assessment .development__block .block__bar__all__two .technology__progress__bar__two {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 15px;
+}
+.conteiner main .right__block__main .block__assessment .development__block .block__bar__all__two .technology__progress__bar__two .technology__headings__two {
+  font-size: 24px;
+}
+.conteiner main .right__block__main .block__assessment .development__block .block__bar__all__two .technology__progress__bar__two .block__bar__technology__two {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.conteiner main .right__block__main .block__assessment .development__block .block__bar__all__two .technology__progress__bar__two .block__bar__technology__two .progress_bar__three__two {
+  width: 450px;
+  background: #C4C4C4;
+  height: 30px;
+  border-radius: 41px;
+}
+.conteiner main .right__block__main .block__assessment .development__block .block__bar__all__two .technology__progress__bar__two .block__bar__technology__two .progress_bar__three__two .proggress__bar__span__technology__two {
+  display: block;
+  width: 45%;
+  background: #DC2014;
+  height: 30px;
+  border-radius: 41px 0px 0px 41px;
+}
+.conteiner main .right__block__main .block__assessment .development__block .block__bar__all__two .technology__progress__bar__two .block__bar__technology__two .img__gal__technology__two {
+  margin-left: 25px;
+}
+.conteiner main .right__block__main .block__assessment .development__block .block__bar__all__two .final__testing__progress__bar__two {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 15px;
+}
+.conteiner main .right__block__main .block__assessment .development__block .block__bar__all__two .final__testing__progress__bar__two .final__testing__headings__two {
+  font-size: 24px;
+}
+.conteiner main .right__block__main .block__assessment .development__block .block__bar__all__two .final__testing__progress__bar__two .block__bar__final__testing__two {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.conteiner main .right__block__main .block__assessment .development__block .block__bar__all__two .final__testing__progress__bar__two .block__bar__final__testing__two .progress_bar__three__two {
+  width: 450px;
+  background: #C4C4C4;
+  height: 30px;
+  border-radius: 41px;
+}
+.conteiner main .right__block__main .block__assessment .development__block .block__bar__all__two .final__testing__progress__bar__two .block__bar__final__testing__two .progress_bar__three__two .proggress__bar__span__final__testing__two {
+  display: block;
+  width: 60%;
+  background: #394959;
+  height: 30px;
+  border-radius: 41px 0px 0px 41px;
+}
+.conteiner main .right__block__main .block__assessment .development__block .block__bar__all__two .final__testing__progress__bar__two .block__bar__final__testing__two .img__gal__final__testing__two {
+  margin-left: 25px;
+}
+.conteiner main .right__block__main .block__assessment .recommendations__for__courses__trials {
+  color: #393939;
+  margin-top: 50px;
+}
+.conteiner main .right__block__main .block__assessment .recommendations__for__courses__trials .info__recommendations {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.conteiner main .right__block__main .block__assessment .recommendations__for__courses__trials .block__table {
+  margin-top: 25px;
+}
+.conteiner main .right__block__main .block__assessment .recommendations__for__courses__trials .block__table .table__info {
+  font-family: "Proximanova Regular", sans-serif;
+  width: 90%;
+  margin: auto;
+  border-collapse: collapse;
+  font-weight: 100;
+}
+.conteiner main .right__block__main .block__assessment .recommendations__for__courses__trials .block__table .table__info .tr__block__first {
+  text-align: center;
+  height: 70px;
+  background: #394959;
+  color: #FFF;
+  font-weight: 100;
+}
+.conteiner main .right__block__main .block__assessment .recommendations__for__courses__trials .block__table .table__info .tr__block__second {
+  text-align: center;
+  height: 70px;
+  background: #D0D0D0;
+  color: #000;
+  font-weight: 100;
+}
+.conteiner main .right__block__main .block__assessment .recommendations__for__courses__trials .block__table .table__info .tr__block__three {
+  text-align: center;
+  height: 70px;
+  background: #E2DFDF;
+  color: #000;
+  font-weight: 100;
+  font-size: 24px;
+}
+.conteiner main .right__block__main .block__assessment .recommendations__for__courses__trials .block__table .table__info .tr__block__four {
+  text-align: center;
+  height: 70px;
+  background: #D0D0D0;
+  color: #000;
+  font-weight: 100;
+  font-size: 24px;
+}
+.conteiner main .right__block__main .block__assessment .recommendations__for__courses__trials .block__table .table__info .tr__block__five {
+  text-align: center;
+  height: 70px;
+  background: #E2DFDF;
+  color: #000;
+  font-weight: 100;
+  font-size: 24px;
+}
+.conteiner main .right__block__main .block__assessment .history__of__completed__courses__trials {
+  color: #394959;
+  padding-top: 75px;
+  padding-bottom: 50px;
+}
+.conteiner main .right__block__main .block__assessment .history__of__completed__courses__trials .headings__history {
+  text-align: center;
+}
+.conteiner main .right__block__main .block__assessment .history__of__completed__courses__trials .all__block__history {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 50px;
+}
+.conteiner main .right__block__main .block__assessment .history__of__completed__courses__trials .all__block__history .left__block__history {
+  max-width: 400px;
+  color: #222;
+}
+.conteiner main .right__block__main .block__assessment .history__of__completed__courses__trials .all__block__history .left__block__history .img__text__block__left__block__first {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 24px;
+}
+.conteiner main .right__block__main .block__assessment .history__of__completed__courses__trials .all__block__history .left__block__history .img__text__block__left__block__first .text__history__first__left__block {
+  margin-left: 15px;
+}
+.conteiner main .right__block__main .block__assessment .history__of__completed__courses__trials .all__block__history .left__block__history .img__text__block__left__block__second {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 24px;
+  margin-top: 20px;
+}
+.conteiner main .right__block__main .block__assessment .history__of__completed__courses__trials .all__block__history .left__block__history .img__text__block__left__block__second .text__history__second__left__block {
+  margin-left: 15px;
+}
+.conteiner main .right__block__main .block__assessment .history__of__completed__courses__trials .all__block__history .left__block__history .img__text__block__left__block__three {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 24px;
+  margin-top: 20px;
+}
+.conteiner main .right__block__main .block__assessment .history__of__completed__courses__trials .all__block__history .left__block__history .img__text__block__left__block__three .text__history__three__left__block {
+  margin-left: 15px;
+}
+.conteiner main .right__block__main .block__assessment .history__of__completed__courses__trials .all__block__history .left__block__history .img__text__block__left__block__four {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 24px;
+  margin-top: 20px;
+}
+.conteiner main .right__block__main .block__assessment .history__of__completed__courses__trials .all__block__history .left__block__history .img__text__block__left__block__four .text__history__four__left__block {
+  margin-left: 15px;
+}
+.conteiner main .right__block__main .block__assessment .history__of__completed__courses__trials .all__block__history .center__block__history {
+  max-width: 400px;
+  color: #222;
+}
+.conteiner main .right__block__main .block__assessment .history__of__completed__courses__trials .all__block__history .center__block__history .img__text__block__center__block__first {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 24px;
+  margin-top: 20px;
+}
+.conteiner main .right__block__main .block__assessment .history__of__completed__courses__trials .all__block__history .center__block__history .img__text__block__center__block__first .text__history__first__center__block {
+  margin-left: 15px;
+}
+.conteiner main .right__block__main .block__assessment .history__of__completed__courses__trials .all__block__history .center__block__history .img__text__block__center__block__second {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 24px;
+  margin-top: 20px;
+}
+.conteiner main .right__block__main .block__assessment .history__of__completed__courses__trials .all__block__history .center__block__history .img__text__block__center__block__second .text__history__second__center__block {
+  margin-left: 15px;
+}
+.conteiner main .right__block__main .block__assessment .history__of__completed__courses__trials .all__block__history .center__block__history .img__text__block__center__block__three {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 24px;
+  margin-top: 20px;
+}
+.conteiner main .right__block__main .block__assessment .history__of__completed__courses__trials .all__block__history .center__block__history .img__text__block__center__block__three .text__history__three__center__block {
+  margin-left: 15px;
+}
+.conteiner main .right__block__main .block__assessment .history__of__completed__courses__trials .all__block__history .center__block__history .img__text__block__center__block__four {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 24px;
+  margin-top: 20px;
+}
+.conteiner main .right__block__main .block__assessment .history__of__completed__courses__trials .all__block__history .center__block__history .img__text__block__center__block__four .text__history__four__center__block {
+  margin-left: 15px;
+}
+.conteiner main .right__block__main .block__assessment .history__of__completed__courses__trials .all__block__history .right__block__history {
+  max-width: 400px;
+  color: #222;
+}
+.conteiner main .right__block__main .block__assessment .history__of__completed__courses__trials .all__block__history .right__block__history .img__text__block__right__block__first {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 24px;
+  margin-top: 20px;
+}
+.conteiner main .right__block__main .block__assessment .history__of__completed__courses__trials .all__block__history .right__block__history .img__text__block__right__block__first .text__history__first__right__block {
+  margin-left: 15px;
+}
+.conteiner main .right__block__main .block__assessment .history__of__completed__courses__trials .all__block__history .right__block__history .img__text__block__right__block__second {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 24px;
+  margin-top: 20px;
+}
+.conteiner main .right__block__main .block__assessment .history__of__completed__courses__trials .all__block__history .right__block__history .img__text__block__right__block__second .text__history__second__right__block {
+  margin-left: 15px;
+}
+.conteiner main .right__block__main .block__assessment .history__of__completed__courses__trials .all__block__history .right__block__history .img__text__block__right__block__three {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 24px;
+  margin-top: 20px;
+}
+.conteiner main .right__block__main .block__assessment .history__of__completed__courses__trials .all__block__history .right__block__history .img__text__block__right__block__three .text__history__three__right__block {
+  margin-left: 15px;
+}
+.conteiner main .right__block__main .block__assessment .history__of__completed__courses__trials .all__block__history .right__block__history .img__text__block__right__block__four {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 24px;
+  margin-top: 20px;
+}
+.conteiner main .right__block__main .block__assessment .history__of__completed__courses__trials .all__block__history .right__block__history .img__text__block__right__block__four .text__history__four__right__block {
+  margin-left: 15px;
+}
+.conteiner footer {
+  background: #394959;
+  min-height: 180px;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+}
+.conteiner footer .container__footer {
+  max-width: 1000px;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+  font-size: 16px;
+}
+.conteiner footer .container__footer .contact__block {
+  max-width: 350px;
+  height: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+.conteiner footer .container__footer .contact__block .block__address {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 12px;
+}
+.conteiner footer .container__footer .contact__block .block__address img {
+  width: 22px;
+  height: 22px;
+  margin-right: 5px;
+}
+.conteiner footer .container__footer .block__phone {
+  margin-bottom: 12px;
+}
+.conteiner footer .container__footer .block__phone img {
+  width: 22px;
+  height: 22px;
+  margin-right: 5px;
+}
+.conteiner footer .container__footer .block__email {
+  margin-bottom: 12px;
+}
+.conteiner footer .container__footer .block__email img {
+  width: 22px;
+  height: 22px;
+  margin-right: 5px;
+}
+.conteiner footer .container__footer .block__inst {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 15px;
+}
+.conteiner footer .container__footer .block__inst img {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+.conteiner footer .container__footer .block__facebook {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.conteiner footer .container__footer .block__facebook img {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+.flex-jc-sb {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.fz-24 {
+  font-size: 24px;
+}
+
+.fz-22 {
+  font-size: 22px;
+}
+
+.fz-20 {
+  font-size: 20px;
+}
+
+.fz-28 {
+  font-size: 28px;
+}
+
+.fz-34 {
+  font-size: 34px;
+}
+
+.fz-38 {
+  font-size: 38px;
+}
+
+.fz-26 {
+  font-size: 26px;
+}
+
+.fz-14 {
+  font-size: 14px;
+}
+
+.fz-16 {
+  font-size: 16px;
+}
+
+@media (max-width: 1350px) {
+  .navigation__left__block {
+    font-size: 16px;
+  }
+
+  .personal__account {
+    font-size: 26px;
+    max-width: 820px;
+    margin: auto;
+  }
+
+  .block__info__user {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    font-size: 16px;
+  }
+
+  .btn__edit__info {
+    font-size: 18px;
+    margin-left: 50px;
+    max-width: 225px;
+    max-height: 50px;
+  }
+
+  .upper__block__upcoming__meetings {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+    margin-left: 25px;
+  }
+
+  .lower__block__upcoming__meetings {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: start;
+    margin-left: 25px;
+  }
+
+  .marketing__block__progress,
+.development__block {
+    margin-left: 20px;
+  }
+
+  .right__block__info__user {
+    text-align: end;
+  }
+}
+@media (max-width: 1155px) {
+  .left__block__main {
+    display: none;
+  }
+
+  .right__block__main {
+    min-width: 100%;
+  }
+
+  .burger__menu {
+    display: block;
+    cursor: pointer;
+  }
+}
+@media (max-width: 955px) {
+  .burger__menu {
+    display: block;
+  }
+
+  .marketing__heading,
+.development__heading,
+.info__recommendations,
+.headings__history {
+    font-size: 28px;
+  }
+
+  .headings__marketing {
+    max-width: 235px;
+  }
+
+  .headings__development {
+    max-width: 245px;
+  }
+
+  .block__table {
+    font-size: 16px;
+  }
+
+  .upper__block__upcoming__meetings {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+    margin-left: 25px;
+  }
+
+  .lower__block__upcoming__meetings {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: start;
+    margin-left: 25px;
+  }
+
+  .blue__info,
+.grey__info {
+    font-size: 12px;
+  }
+
+  .info__about__link {
+    font-size: 8px;
+  }
+
+  .personal__account {
+    max-width: 820px;
+    margin: auto;
+  }
+
+  .block__info__user {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+
+  .btn__edit__info {
+    margin-left: 50px;
+  }
+}
+@media (max-width: 650px) {
+  .tr__block__first,
+.tr__block__second {
+    font-size: 14px;
+  }
+
+  .headings__meetings__mark,
+.headings__meetings__production,
+.headings__info__logist,
+.headings__info__econ {
+    font-size: 20px;
+  }
+
+  .info__about__meeting,
+.info__about__meeting__production,
+.info__about__logistics,
+.info__about__economy {
+    font-size: 16px;
+  }
+
+  .upper__block__info__meettings,
+.under__block__info__meetings,
+.upper__block__info__production,
+.under__block__info__meetings__production,
+.upper__block__info__logistics,
+.lower__block__info__logistics,
+.upper__block__info__economy,
+.lower__block__info__economy {
+    font-size: 16px;
+    width: 355px;
+  }
+
+  .info__meetings,
+.number__info,
+.number__info__production,
+.info__meetings__production,
+.date__info__logistics,
+.phone__info__logistics,
+.date__info__economy,
+.phone__info__economy,
+.link__info__economy {
+    max-width: 170px;
+  }
+
+  .speaker__info,
+.speaker__info__production,
+.FIO__speaker__logistics,
+.FIO__speaker__economy {
+    max-width: 160px;
+  }
+
+  .link__connection,
+.link__connection__production,
+.link__info__logistics {
+    max-width: 165px;
+  }
+
+  .headings__info {
+    width: 320px;
+  }
+
+  .headings__info__right__block {
+    width: 335px;
+  }
+
+  .headings__info__logistics {
+    width: 305px;
+  }
+
+  .headings__info__economy {
+    width: 315px;
+  }
+
+  .container__footer {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: start;
+    padding-left: 25px;
+  }
+
+  .logo__block {
+    margin-top: 25px;
+  }
+
+  .contact__block {
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+
+  .social__networks__block {
+    margin-bottom: 25px;
+  }
+
+  .all__block__history {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+
+  .center__block__history {
+    margin: 10px 0px 10px 0px;
+  }
+
+  .blue__info,
+.grey__info {
+    width: 40px;
+  }
+
+  .upper__block__upcoming__meetings,
+.lower__block__upcoming__meetings {
+    margin: 0px 0px 0px 5px;
+  }
+}
+/* полоса прокрутки (скроллбар) */
+::-webkit-scrollbar {
+  width: 12px;
+  height: 4px;
+  background-color: #d0d0d0;
+}
+
+/* ползунок скроллбара */
+::-webkit-scrollbar-thumb {
+  background-color: #ffd7a8;
+  border-radius: 15px;
+}
+
+.dn {
+  display: none;
+}
+
+.blue__info {
+  background-color: #394959;
+  color: #fff;
+}
+
+.grey__info {
+  background-color: #dedede;
+}
+
+.info__about__link {
+  color: #1D9BF0;
+  border-bottom: 1px solid;
+}
+
+.info__time {
+  margin-bottom: 4px;
+}
+
+.info__about__day {
+  margin-top: 10px;
+  text-align: left;
+}
+
+.h3__info__day {
+  max-width: 70px;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+.table__head,
+.table__main {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.modal {
+  right: 3.5%;
+  top: 2%;
+  -webkit-transform: translate(2%, 18%);
+          transform: translate(2%, 18%);
+  position: fixed;
+}
+
+.modal__close {
+  position: absolute;
+  top: 8px;
+  right: 14px;
+  font-size: 30px;
+  color: #FFF;
+  opacity: 1;
+  font-weight: 700;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  -webkit-transition: 0.3s ease-in;
+  transition: 0.3s ease-in;
+}
+
+.modal__close:hover {
+  color: #1da5f0;
+}
+
+.modal__dialog {
+  max-width: 360px;
+}
+
+.modal__nav {
+  font-size: 22px;
+  margin-top: 50px;
+}
+
+.modal__nav li {
+  margin-bottom: 10px;
+}
+
+.modal__content {
+  position: relative;
+  width: 280px;
+  height: 385px;
+  background: #394959;
+  max-width: 100%;
+  padding-left: 25px;
+  border-radius: 8px;
+  overflow-y: auto;
+}
+
+.navigation__left__block__burger {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 140px;
+  margin-top: 15px;
+}
+
+.hight__block__main__burger {
+  margin-top: 35px;
+}
+
+.name__acc__burger {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
+}
